@@ -15,11 +15,13 @@ dependencies:
   equatable: ^2.0.5
   flutter:
     sdk: flutter
-  flutter_map: ^6.0.0
+  flutter_map: ^7.0.0
   flutter_map_marker_popup: ^6.1.1
   latlong2: ^0.9.0
   provider: ^6.1.1
-  supercluster: ^3.0.1
+  supercluster:
+    git:
+      url: https://github.com/Oleksii-Milkov/supercluster_dart_fork.git
 
 dev_dependencies:
   flutter_lints: ^3.0.1
